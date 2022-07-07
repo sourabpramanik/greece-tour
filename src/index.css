@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+.noFocus{
+  outline: none;
+}
+.noFocus:focus, .noFocus:focus-visible{
+  outline: none !important;  
+}

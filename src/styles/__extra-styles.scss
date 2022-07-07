@@ -1,0 +1,34 @@
+.custom-bottom-nav-styles{
+	width: 1278px;
+	left: 50%;
+    transform: translate(-50%, 0);
+	@media screen and (max-width:1535px){
+		width: 1248px;
+	}
+	@media screen and (max-width:1279px){
+		width: 992px;
+	}
+	@media screen and (max-width:1023px){
+		width: 738px;
+	}
+	@media screen and (max-width:840px){
+		width: 738px;
+	}	
+	@media screen and (max-width:767px){
+		width: 609px;
+	}
+	@media screen and (max-width:637px){	
+		width: 100vw;
+	}
+}
+.mobile-step-nav{
+	display:none;
+	@media screen and (max-width: 840px){
+		display:block;
+		position: fixed;
+		bottom:0;
+    	
+    	
+	}
+	
+}
